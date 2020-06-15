@@ -21,4 +21,4 @@ msf-egghunter --help - For more information
 ```
 <br />
 
-Egghunter made by <a href="https://www.corelan.be/index.php/2019/04/23/windows-10-egghunter/" target="_blank">@Corelan</a>
+Egghunter made by <a href="https://github.com/helviojunior/libs/blob/master/assembly/egghunter/32bits/egghunter_w10.asm" target="_blank">@Hélvio Junior (M4v3r1cK)</a>
