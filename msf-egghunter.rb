@@ -33,7 +33,7 @@ module Egghunter
           options[:badchars] = v
         end
 
-        opt.on('--pop2ret <String>', "The POP; POP; RET (Please give 4 bytes)") do |v|
+        opt.on('-r','--pop2ret <String>', "The POP; POP; RET (Please give 4 bytes)") do |v|
           options[:pop2ret] = v
         end
 
@@ -103,7 +103,7 @@ module Egghunter
       elsif options[:eggtag].blank? && !options[:list_formats]
         raise OptionParser::MissingArgument, '-e is required'
       elsif options[:pop2ret].blank? && !options[:list_formats]
-        raise OptionParser::MissingArgument, '--pop2ret is required'
+        raise OptionParser::MissingArgument, '-r is required'
       elsif options[:format] && !::Msf::Simple::Buffer.transform_formats.include?(options[:format])
         raise OptionParser::InvalidOption, "#{options[:format]} is not a valid format"
       elsif options[:depsize] && options[:depsize] !~ /^\d+$/
