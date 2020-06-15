@@ -1,5 +1,9 @@
 # MSF-EGGHUNTER x64
 
+## Required
+
+- Root to execute script [install.sh](https://github.com/mx61tt/msf-egghunter/blob/master/install.sh)
+
 ## Installation
 
 ```
