@@ -15,7 +15,7 @@ sudo ./install.sh
 ## Usage
 
 ```
-msf-egghunter -e matt -f python -r <Address of POP; POP; RET>
+msf-egghunter -e w00t -f python -r <Address of POP; POP; RET>
 
 msf-egghunter --help - For more information
 ```
